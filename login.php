@@ -28,7 +28,7 @@
       <![endif]-->
     </head>
 
-    <body id="mimin" class="dashboard form-signin-wrapper">
+    <body id="mimin" class="dashboard form-signin-wrapper" style="background: white;">
     
       <div class="container" style="margin-top: 100px;">
 

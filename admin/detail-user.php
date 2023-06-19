@@ -62,9 +62,9 @@ $_SESSION['start_time'] = time();
                       <tr>
                       <td>User ID</td>
                       <td><?php echo $data['user_id']; ?></td>
-                      <td rowspan="9"><div class="pull-right image">
-                            <img src="asset/img/avatar.jpg" class="img-rounded" height="300" width="250" alt="User Image" style="border: 2px solid #666;" />
-                        </div></td>
+                      <!-- <td rowspan="9"><div class="pull-right image">
+                            <img src="asset/img/profil.png" class="img-rounded" height="300" width="250" alt="User Image" style="border: 2px solid #666;" />
+                        </div></td> -->
                       </tr>
                       <tr>
                       <td width="250">Username</td>

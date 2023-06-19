@@ -8,7 +8,7 @@
     <meta name="author" content="SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com">
     <link rel="icon" href="">
 
-    <title>SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com</title>
+    <title>SISTEM PAKAR DIAGNOSA PENYAKIT PADA SAYURAN ORGANIK</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 			}
  }  
  ?>  
-            <table class="table table-bordered table-hover">
+            <table class="table table-borderless table-hover">
             <tr>
             <td>Gejala</td>
             <td>:</td>
@@ -97,7 +97,7 @@
                 } else {echo "";}
                  ?>
                  </td>
-            <td><a href="cetak-hasil.php?cek=<?php echo $row['jika']; ?>" class="btn btn-sm btn-primary" target="_blank">Download</a></td>
+            <td><center><a href="cetak-hasil.php?cek=<?php echo $row['jika']; ?>" class="btn btn-sm btn-primary" target="_blank">Download</a></center></td>
             </tr>
             <tr>
             <td>Penyakit</td>
@@ -109,11 +109,11 @@
             <td>:</td>
             <td colspan="2"><?php echo $row['penyebab']; ?></td>
             </tr>
-            <tr>
+            <!-- <tr>
             <td>Pencegahan</td>
             <td>:</td>
             <td colspan="2"><?php echo $row['deskripsi']; ?></td>
-            </tr>
+            </tr> -->
             <tr>
             <td>Nama Obat</td>
             <td>:</td>
@@ -140,34 +140,14 @@
             
             </tr>
             </table>
-            <a class="btn btn-sm btn-danger" href="diagnosa.php">Kembali</a>
+            <a class="btn btn-md btn-danger float-right mt-4" href="diagnosa.php">Kembali</a>
           </div>
         </div>
 <br /><br />
       </main>
 
-      <!-- Modal Popup -->
-      <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                
-                </div>
-                <div class="modal-body">
-                    <p>Selamat datang di sistem pakar gejala penyakit pada tumbuhan.</p>
-                    <p>Di aplikasi ini anda bisa mengetahui penyakit tumbuhan dengan gejala yang ditimbulkannya</p>
-                    <b>Sistem Pakar Penyakit Tumbuhan</b>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- end Modal Popup -->
-
       <!-- Site footer -->
-      <footer class="footer">
-        <p>Copyright &copy; 2017 </p>
-      </footer>
+      <nav class="navbar navbar-expand-md navbar-light rounded justify-content-center mt-5" style="background-color: #229954; color: white;"><h6 style="padding-top: 10px; padding-bottom: 10px;">Copyright &copy; 2023 Kelompok 4 </h6></nav>
 
     </div> <!-- /container -->
 

@@ -8,7 +8,7 @@
     <meta name="author" content="SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com">
     <link rel="icon" href="">
 
-    <title>SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com</title>
+    <title>SISTEM PAKAR DIAGNOSA PENYAKIT PADA SAYURAN ORGANIK</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,57 +28,33 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-lg-12">
-            <h2>Profile</h2>
+            <h2 class="mb-4">Profil</h2>
             <table class="table table-hover table-condensed">
             <tr>
             <td>Aplikasi</td>
-            <td>: Sistem Pakar Diagnosa Penyakit Tanaman Sayur</td>
+            <td>: Sistem Pakar Diagnosa Penyakit Pada Tanaman Sayuran Organik</td>
             <td rowspan="5"></td>
             </tr>
             <tr>
-            <td>Creator</td>
-            <td>: Erika Elok Siska</td>
-            </tr>
-            <tr>
-            <td>Kelas</td>
-            <td>: TI 2017 B</td>
+            <td>Oleh</td>
+            <td>: Kelompok 4 <br>
+                1. Aldo Attallah Duta Hardeandra	(M0520009) <br>
+                2. Andini Rahmawati			(M0520013) <br>
+                3. Fadil Pratama			(M0520025)
+
+            </td>
             </tr>
             <tr>
             <td>Mata Kuliah</td>
-            <td>: Analisis Perancangan Sistem</td>
-            </tr>
-            <tr>
-            <td>Quote</td>
-            <td>: Sebaik - baik ilmu adalah ilmu yang bermanfaat.</td>
+            <td>: Sistem Pakar</td>
             </tr>
             </table>
           </div>
         </div>
 <br /><br />
       </main>
-
-      <!-- Modal Popup -->
-      <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                
-                </div>
-                <div class="modal-body">
-                    <p>Selamat datang di sistem pakar gejala penyakit pada tumbuhan.</p>
-                    <p>Di aplikasi ini anda bisa mengetahui penyakit tumbuhan dengan gejala yang ditimbulkannya</p>
-                    <b>Sistem Pakar Penyakit Tumbuhan</b>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- end Modal Popup -->
-
       <!-- Site footer -->
-      <footer class="footer">
-        <p>Copyright &copy; 2019</p>
-      </footer>
+      <nav class="navbar navbar-expand-md navbar-light rounded justify-content-center mt-5" style="background-color: #229954; color: white;"><h6 style="padding-top: 10px; padding-bottom: 10px;">Copyright &copy; 2023 Kelompok 4 </h6></nav>
 
     </div> <!-- /container -->
 

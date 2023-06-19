@@ -7,7 +7,7 @@
     <meta name="author" content="SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com">
     <link rel="icon" href="">
 
-    <title>SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com</title>
+    <title>SISTEM PAKAR DIAGNOSA PENYAKIT PADA SAYURAN ORGANIK</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,13 +28,13 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Daftar Penyakit Tanaman Sayur Organik</h2>
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover mt-4">
 		<tr>
-            <th><center>NO</center></th>
-			<th><center>KODE </center></th>
-			<th><center>NAMA PENYAKIT</center></th>
-            <th><center>PENYEBAB</center></th>
-            <th><center>DESKRIPSI</center></th>
+            <th><center>No</center></th>
+			<th><center>Kode </center></th>
+			<th><center>Nama Penyakit</center></th>
+            <th><center>Penyebab</center></th>
+            <th><center>Deskripsi</center></th>
 		</tr>
 		<?php 
         include "conn.php";
@@ -44,11 +44,11 @@
               $no++;
 		?>
 		<tr>
-        <td><?php echo $no; ?></td>
-			<td><?php echo $data['kode']; ?></td>
+        <td><center><?php echo $no; ?>. </center></td>
+			<td><center><?php echo $data['kode']; ?></center></td>
 			<td><?php echo $data['nama_penyakit']; ?></td>
   	        <td><?php echo $data['penyebab']; ?></td>
-            <td><a href="deskripsi.php?id=<?php echo $data['kode']; ?>" class="btn btn-sm btn-primary">Detail</a></td>
+            <td><center><a href="deskripsi.php?id=<?php echo $data['kode']; ?>" class="btn btn-sm btn-primary">Detail</a></center></td>
             </tr>
             <?php } ?>
             </table>
@@ -76,9 +76,7 @@
 <!-- end Modal Popup -->
 
       <!-- Site footer -->
-      <footer class="footer">
-        <p>Copyright &copy; 2019</p>
-      </footer>
+      <nav class="navbar navbar-expand-md navbar-light rounded justify-content-center mt-5" style="background-color: #229954; color: white;"><h6 style="padding-top: 10px; padding-bottom: 10px;">Copyright &copy; 2023 Kelompok 4 </h6></nav>
 
     </div> <!-- /container -->
 

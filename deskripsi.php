@@ -8,7 +8,7 @@
     <meta name="author" content="SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com">
     <link rel="icon" href="">
 
-    <title>SISTEM PAKAR DIAGNOSA PENYAKIT SAYUR ORGANIK | www.hakkoblogs.com</title>
+    <title>SISTEM PAKAR DIAGNOSA PENYAKIT PADA SAYURAN ORGANIK</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
 			}
  
  ?>  
-            <table class="table table-bordered table-hover">
+            <table class="table table-borderless table-hover mt-4">
             <tr>
             <td>Penyakit</td>
             <td>:</td>
@@ -94,11 +94,11 @@
                  ?>
                  </td>
             </tr>
-            <tr>
+            <!-- <tr>
             <td>Pencegahan</td>
             <td>:</td>
             <td colspan="2"><?php echo $row['deskripsi']; ?></td>
-            </tr>
+            </tr> -->
             <tr>
             <td>Nama Obat</td>
             <td>:</td>
@@ -126,7 +126,7 @@
             </tr>
             
             </table>
-            <a class="btn btn-sm btn-danger" href="daftar.php">Kembali</a>
+            <a class="btn btn-md btn-danger float-right mt-4" href="daftar.php">Kembali</a>
           </div>
         </div>
 <br /><br />
@@ -151,10 +151,7 @@
 <!-- end Modal Popup -->
 
       <!-- Site footer -->
-     <footer class="footer">
-        <p>Copyright &copy; 2017 <a href="http://www.hakkoblogs.com">www.hakkoblogs.com</a></p>
-      </footer>
-
+      <nav class="navbar navbar-expand-md navbar-light rounded justify-content-center mt-5" style="background-color: #229954; color: white;"><h6 style="padding-top: 10px; padding-bottom: 10px;">Copyright &copy; 2023 Kelompok 4 </h6></nav>
     </div> <!-- /container -->
 
 

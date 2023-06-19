@@ -7,7 +7,7 @@
                 <span class="bottom"></span>
               </div>
                 <a href="index.html" class="navbar-brand"> 
-                 <b>SISTEM PAKAR</b>
+                 <b>Sistem Pakar</b>
                 </a>
 
              <!--  <ul class="nav navbar-nav search-nav">
@@ -26,15 +26,15 @@
               <ul class="nav navbar-nav navbar-right user-nav">
                 <li class="user-name"><span></span></li>
                   <li class="dropdown avatar-dropdown">
-                   <img src="asset/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
+                   <img src="asset/img/profil.png" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
                    <ul class="dropdown-menu user-dropdown">
-                     <li><a href="detail-user.php?id=<?php echo $_SESSION['user_id']; ?>"><span class="fa fa-user"></span> My Profile</a></li>
+                     <li><a href="detail-user.php?id=<?php echo $_SESSION['user_id']; ?>"><span class="fa fa-user"></span> Profil</a></li>
                      <li role="separator" class="divider"></li>
                      <li class="more">
                       <ul>
                         <!--<li><a href=""><span class="fa fa-cogs"></span></a></li>
                         <li><a href=""><span class="fa fa-lock"></span></a></li> -->
-                        <li><a href="../logout.php"><span class="fa fa-power-off "></span> Logout</a></li>
+                        <li><a href="../logout.php"><span class="fa fa-power-off "></span> Keluar</a></li>
                       </ul>
                     </li>
                   </ul>

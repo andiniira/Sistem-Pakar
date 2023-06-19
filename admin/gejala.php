@@ -170,9 +170,9 @@ $_SESSION['start_time'] = time();
         <td><?php echo $no; ?></td>
 			<td><?php echo $data['kd_gejala']; ?></td>
 			<td><?php echo $data['gejala']; ?></td>
-			<td>
+			<td class="d-flex justify-content-between">
 			    <!-- Edit Data -->
-			    <a href="#" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit<?php echo $data['kd_gejala']; ?>" title="Edit Data"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
+			    <a href="#" class="btn btn-success btn-sm d-flex justify-content-between" data-toggle="modal" data-target="#edit<?php echo $data['kd_gejala']; ?>" title="Edit Data"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
 
 				<div class="modal fade bs-example-modal-lg" id="edit<?php echo $data['kd_gejala']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				  <div class="modal-dialog  modal-lg" role="document">
@@ -207,7 +207,7 @@ $_SESSION['start_time'] = time();
 				</div>
                 <!-- Akhir edit data -->
                 <!-- Hapus data -->
-				<a href="#" class="btn btn-danger btn-sm"title="Hapus Data" data-target=".bs-example-modal-lg<?php echo $data['kd_gejala']; ?>" data-toggle="modal"><span class="glyphicon glyphicon-trash"></span> Hapus</a>
+				<br><a href="#" class="btn btn-danger btn-sm d-flex justify-content-between"title="Hapus Data" data-target=".bs-example-modal-lg<?php echo $data['kd_gejala']; ?>" data-toggle="modal"><span class="glyphicon glyphicon-trash"></span> Hapus</a>
 
 				<div class="modal fade bs-example-modal-lg<?php echo $data['kd_gejala']; ?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-lg" role="document">
